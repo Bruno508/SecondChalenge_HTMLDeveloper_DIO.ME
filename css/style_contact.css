@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+a {
+    display: block;
+    text-decoration: none;
+    color: rgba(57, 61, 89, 1);
+    padding: 20px 20px;
+}
+
+.menu_list:hover {
+    color: blue;
+    background-color: rgba(112, 142, 224, 0.535);
+}
+
+
+
+html,
+body {
+    font-size: 100%;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    color: rgba(57, 61, 89, 1);
+}
+
+.body {
+    background: url(/Imagens/3972313_17395.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 24px;
+    background-image: url(/Imagens/equipment-and-dental-instruments-in-dentist-s-office-tools-close-up.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.logo {
+    height: 120px;
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    font-size: 70px;
+}
+
+.header-subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.4px solid rgba(239, 241, 242, 1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+}
+
+.menu {
+    font-family: 'Sarala', sans-serif;
+    width: 350px;
+    border-right: 0.4px solid rgba(239, 241, 242, 1);
+}
+
+
+
+.main-text-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: -250px;
+
+
+}
+
+.main-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.main-subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 50px;
+
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.row {
+    margin: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+textarea {
+    width: 100%;
+
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+textarea:focus {
+    border: 3px solid #555;
+}
+
+label {
+    width: 100px;
+    text-align: start;
+    display: inline-block;
+    color: rgba(57, 61, 89, 1);
+}
+
+fieldset {
+    font-family: 'Sarala', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: white;
+    padding: 0px 20px;
+}
+
+legend {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(57, 61, 89, 1);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 10px;
+}
+
+button {
+    background-color: rgba(57, 61, 89, 1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(32, 31, 30);
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(63, 66, 85);
+}
+
+button:active {
+    box-shadow: 0 0 0 0 rgb(32, 31, 30), inset 3px 3px 3px rgb(32, 31, 30);
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.4px solid white;
+    padding-top: 61px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.links_redes {
+    font-family: 'Sarala', sans-serif;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.follow-us {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.instagram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.facebook-image {
+    width: 40px;
+}
+
+.twitter-image {
+    width: 40px;
+}
+
+.instagram-image {
+    width: 40px;
+}
+
+
+.facebook:hover {
+    transform: scale(1.5);
+}
+
+.twitter:hover {
+    transform: scale(1.5);
+}
+
+.instagram:hover {
+    transform: scale(1.5);
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: rgba(57, 61, 89, 1);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.footer a:hover {
+    color: white
+}
+
+.whatsapp {
+    margin-left: 10px;
+    width: 30px;
+}
